@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import countdownLogo from './media/countdown.png';
 import RandomGen from './Games/RandomGen/RandomGen.js';
 import RNG from './media/RNG.png';
 import ROF from './media/ROF.png';
@@ -22,11 +23,11 @@ export default class Home extends React.Component {
                         <Card className="Home-card">
                             <Card.Img className="Home-image" variant="top" src={ RNG } />
                             <Card.Body>
-                                <Card.Title>Random Number</Card.Title>
+                                <Card.Title>Countdown</Card.Title>
                                 <Card.Text>
-                                    Keep rolling until someone gets a 1, they have to down their drink.
+                                    Random number generator where the number generated becomes the new range. Whoever lands on 1 has to drink.
                                 </Card.Text>
-                                <Button onClick={() => handler(<RandomGen />)} variant="primary">Play</Button>
+                                <Button onClick={() => handler(<RandomGen />, countdownLogo)} variant="primary">Play</Button>
                             </Card.Body>
                         </Card>
                     </Col>

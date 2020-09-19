@@ -15,19 +15,21 @@ export default class App extends React.Component {
         super(props)
         this.state ={
             currentPage: <Home handler = {this.handler} />,
+            currentLogo: logo,
         };
         this.handler = this.handler.bind(this);
         this.showHome = this.showHome.bind(this);
     }
 
-    handler = (arg) => {
+    handler = (page, logo) => {
         this.setState({
-            currentPage: arg,
+            currentPage: page,
+            currentLogo: logo,
         });
     }
 
     showHome() {
-        this.setState({currentPage: <Home handler = {this.handler} /> });
+        this.setState({currentPage: <Home handler = {this.handler} />, currentLogo: logo });
     }
 
     showRandomGen() {
@@ -38,7 +40,7 @@ export default class App extends React.Component {
         return (
             <Container fluid className="App">
                 <Container className="App-header">
-                    <img className="App-logo" onClick={this.showHome} src={logo} />
+                    <img className="App-logo" onClick={this.showHome} src={this.state.currentLogo} />
                 </Container>
                 <Container className="App-body">
                     <Row>

@@ -8,6 +8,10 @@ export default class StartScreen extends React.Component{
     render() {
         var handler = this.props.handler;
         return (
+            <div>
+            <Card.Title className="RNG-title pt-3 px-2">
+                Game Settings
+            </Card.Title>
             <Card.Body>
                 <DropdownButton id="dropdown-basic-button" title="Select a limit">
                     <Dropdown.Item onClick={() => handler(100)}>100</Dropdown.Item>
@@ -15,6 +19,7 @@ export default class StartScreen extends React.Component{
                     <Dropdown.Item onClick={() => handler(10000)}>10,000</Dropdown.Item>
                 </DropdownButton>
             </Card.Body>
+            </div>
         );
     }
 

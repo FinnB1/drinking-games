@@ -35,9 +35,6 @@ export default class RandomGen extends React.Component {
         return (
             <Container>
                 <Card  bg="light" text="dark">
-                    <Card.Title className="RNG-title py-2">
-                        Random Number Generator
-                    </Card.Title>
 
                     { this.state.screen }
 
