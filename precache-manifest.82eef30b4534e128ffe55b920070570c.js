@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a90216500b170cbd460bbc92887eb92b",
+    "revision": "26d547569ac254bfc1ddcedf2e419b1c",
     "url": "/drinking-games/index.html"
   },
   {
