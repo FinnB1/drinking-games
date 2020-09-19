@@ -5,6 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import RandomGen from './Games/RandomGen/RandomGen.js';
+import RNG from './media/RNG.png';
+import ROF from './media/ROF.png';
+import COS from './media/COS.png';
 import './App.css';
 
 export default class Home extends React.Component {
@@ -14,10 +17,10 @@ export default class Home extends React.Component {
 
         return (
             <Container>
-                <Row>
-                    <Col>
+                <Row xs={1} sm={1} md={2} lg={3}>
+                    <Col className="py-2">
                         <Card className="Home-card">
-                            <Card.Img className="Home-image" variant="top" src="http://placehold.jp/180x100.png" />
+                            <Card.Img className="Home-image" variant="top" src={ RNG } />
                             <Card.Body>
                                 <Card.Title>Random Number</Card.Title>
                                 <Card.Text>
@@ -27,27 +30,25 @@ export default class Home extends React.Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col className="py-2">
                         <Card className="Home-card">
-                            <Card.Img className="Home-image" variant="top" src="http://placehold.jp/180x100.png" />
+                            <Card.Img className="Home-image" variant="top" src={ ROF } />
                             <Card.Body>
-                                <Card.Title>Coming Soon</Card.Title>
+                                <Card.Title>Ring of Fire</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Under development.
                                 </Card.Text>
                                 <Button variant="primary disabled">Play</Button>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col className="py-2">
                         <Card className="Home-card">
-                            <Card.Img className="Home-image" variant="top" src="http://placehold.jp/180x100.png" />
+                            <Card.Img className="Home-image" variant="top" src={ COS } />
                             <Card.Body>
                                 <Card.Title>Coming Soon</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    More games coming soon
                                 </Card.Text>
                                 <Button variant="primary disabled">Play</Button>
                             </Card.Body>

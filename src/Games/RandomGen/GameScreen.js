@@ -14,10 +14,19 @@ export default class GameScreen extends React.Component {
         }
     }
 
+
     roll() {
         var roll = this.state.roll;
         var newLimit = Math.floor(Math.random() * (roll - 1) + 1);
         this.setState({limit: roll, roll: newLimit,})
+    }
+
+    endGame(arg) {
+        if (arg === 1) {
+            alert("DRINK!!!");
+            this.setState({limit: this.props.limit, roll: this.props.limit})
+        }
+
     }
 
     render() {
@@ -26,7 +35,7 @@ export default class GameScreen extends React.Component {
         return(
             <Card.Body>
                 <Card.Title>
-                    <CountUp className="RNG-number" start={limit} end={roll} />
+                    <CountUp className="RNG-number" start={limit} end={roll} onEnd={() => this.endGame(roll)} />
                 </Card.Title>
                 <Card.Body>
                     <Button onClick={() => this.roll()}>Roll</Button>
