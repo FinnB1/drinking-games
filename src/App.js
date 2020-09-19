@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './media/logo.png';
 import './App.css';
 import Home from './Home.js';
+import RandomGen from './Games/RandomGen.js';
 import Container from "react-bootstrap/Container";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from "react-bootstrap/Row";
@@ -10,16 +11,27 @@ import Button from "react-bootstrap/Button";
 
 export default class App extends React.Component {
 
-    constructor() {
-        super()
-        this.state = {
-            currentPage: <Home />,
+    constructor(props) {
+        super(props)
+        this.state ={
+            currentPage: <Home handler = {this.handler} />,
         };
+        this.handler = this.handler.bind(this);
         this.showHome = this.showHome.bind(this);
     }
 
+    handler = (arg) => {
+        this.setState({
+            currentPage: arg,
+        });
+    }
+
     showHome() {
-        this.setState({currentPage: <Home />});
+        this.setState({currentPage: <Home handler = {this.handler} /> });
+    }
+
+    showRandomGen() {
+        this.setState({currentPage: <RandomGen handler = {this.handler} />})
     }
 
     render() {
