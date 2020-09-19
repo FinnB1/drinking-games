@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './media/logo.png';
 import './App.css';
+import Home from './Home.js';
+import Container from "react-bootstrap/Container";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+
+    constructor() {
+        super()
+        this.state = {
+            currentPage: <Home />,
+        };
+        this.showHome = this.showHome.bind(this);
+    }
+
+    showHome() {
+        this.setState({currentPage: <Home />});
+    }
+
+    render() {
+        return (
+            <Container fluid className="App">
+                <Container className="App-header">
+                    <img className="App-logo" onClick={this.showHome} src={logo} />
+                </Container>
+                <Container className="App-body">
+                    <Row>
+                        <Col>
+                            <Container>
+                                { this.state.currentPage }
+                            </Container>
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
+
+        );
+    }
 }
-
-export default App;
