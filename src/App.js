@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './media/logo.png';
 import './App.css';
 import Home from './Home.js';
-import RandomGen from './Games/RandomGen.js';
+import RandomGen from './Games/RandomGen/RandomGen.js';
 import Container from "react-bootstrap/Container";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from "react-bootstrap/Row";

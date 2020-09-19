@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import RandomGen from './Games/RandomGen.js';
+import RandomGen from './Games/RandomGen/RandomGen.js';
 import './App.css';
 
 export default class Home extends React.Component {
