@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/drinking-games/static/css/main.279accd2.chunk.css",
-    "main.js": "/drinking-games/static/js/main.556c7a84.chunk.js",
-    "main.js.map": "/drinking-games/static/js/main.556c7a84.chunk.js.map",
+    "main.css": "/drinking-games/static/css/main.dcc6391b.chunk.css",
+    "main.js": "/drinking-games/static/js/main.d76fec12.chunk.js",
+    "main.js.map": "/drinking-games/static/js/main.d76fec12.chunk.js.map",
     "runtime-main.js": "/drinking-games/static/js/runtime-main.9349834c.js",
     "runtime-main.js.map": "/drinking-games/static/js/runtime-main.9349834c.js.map",
     "static/css/2.7a1e5dfa.chunk.css": "/drinking-games/static/css/2.7a1e5dfa.chunk.css",
     "static/js/2.8e40adc1.chunk.js": "/drinking-games/static/js/2.8e40adc1.chunk.js",
     "static/js/2.8e40adc1.chunk.js.map": "/drinking-games/static/js/2.8e40adc1.chunk.js.map",
     "index.html": "/drinking-games/index.html",
-    "precache-manifest.e33f83e28bfcc82114a73f0822059e37.js": "/drinking-games/precache-manifest.e33f83e28bfcc82114a73f0822059e37.js",
+    "precache-manifest.daaf699ddf402cd6e6b66555b95de109.js": "/drinking-games/precache-manifest.daaf699ddf402cd6e6b66555b95de109.js",
     "service-worker.js": "/drinking-games/service-worker.js",
     "static/css/2.7a1e5dfa.chunk.css.map": "/drinking-games/static/css/2.7a1e5dfa.chunk.css.map",
-    "static/css/main.279accd2.chunk.css.map": "/drinking-games/static/css/main.279accd2.chunk.css.map",
+    "static/css/main.dcc6391b.chunk.css.map": "/drinking-games/static/css/main.dcc6391b.chunk.css.map",
     "static/js/2.8e40adc1.chunk.js.LICENSE.txt": "/drinking-games/static/js/2.8e40adc1.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/drinking-games/static/media/logo.0a6b31c6.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.9349834c.js",
     "static/css/2.7a1e5dfa.chunk.css",
     "static/js/2.8e40adc1.chunk.js",
-    "static/css/main.279accd2.chunk.css",
-    "static/js/main.556c7a84.chunk.js"
+    "static/css/main.dcc6391b.chunk.css",
+    "static/js/main.d76fec12.chunk.js"
   ]
 }
