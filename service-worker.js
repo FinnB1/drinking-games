@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/drinking-games/precache-manifest.868e2c8d803c05f44289c23f2962e7ca.js"
+  "/drinking-games/precache-manifest.3114dcc05f3e1140ee16a5b51ef02a99.js"
 );
 
 self.addEventListener('message', (event) => {

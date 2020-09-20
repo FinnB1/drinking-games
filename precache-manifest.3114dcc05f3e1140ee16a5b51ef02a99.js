@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ca4cf679e7817cb3891ea265f062c75",
+    "revision": "23ef9b180b7b9d79eb55e6e98553e345",
     "url": "/drinking-games/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/drinking-games/static/css/2.7a1e5dfa.chunk.css"
   },
   {
-    "revision": "904bdcd171587177a1f6",
-    "url": "/drinking-games/static/css/main.0e3c51ae.chunk.css"
+    "revision": "07f516edc9f5a67bfbe8",
+    "url": "/drinking-games/static/css/main.6d86f6dd.chunk.css"
   },
   {
     "revision": "bcbff5ec4031458612eb",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/drinking-games/static/js/2.3bb45155.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "904bdcd171587177a1f6",
+    "revision": "07f516edc9f5a67bfbe8",
     "url": "/drinking-games/static/js/main.426f2b60.chunk.js"
   },
   {
