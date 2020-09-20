@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/drinking-games/static/css/main.6dbb78fb.chunk.css",
-    "main.js": "/drinking-games/static/js/main.aa22401d.chunk.js",
-    "main.js.map": "/drinking-games/static/js/main.aa22401d.chunk.js.map",
+    "main.css": "/drinking-games/static/css/main.98b80e95.chunk.css",
+    "main.js": "/drinking-games/static/js/main.d115cf65.chunk.js",
+    "main.js.map": "/drinking-games/static/js/main.d115cf65.chunk.js.map",
     "runtime-main.js": "/drinking-games/static/js/runtime-main.9349834c.js",
     "runtime-main.js.map": "/drinking-games/static/js/runtime-main.9349834c.js.map",
     "static/css/2.7a1e5dfa.chunk.css": "/drinking-games/static/css/2.7a1e5dfa.chunk.css",
-    "static/js/2.d5e0de35.chunk.js": "/drinking-games/static/js/2.d5e0de35.chunk.js",
-    "static/js/2.d5e0de35.chunk.js.map": "/drinking-games/static/js/2.d5e0de35.chunk.js.map",
+    "static/js/2.3bb45155.chunk.js": "/drinking-games/static/js/2.3bb45155.chunk.js",
+    "static/js/2.3bb45155.chunk.js.map": "/drinking-games/static/js/2.3bb45155.chunk.js.map",
     "index.html": "/drinking-games/index.html",
-    "precache-manifest.a1710e360358f6a72f3663b45132b7c7.js": "/drinking-games/precache-manifest.a1710e360358f6a72f3663b45132b7c7.js",
+    "precache-manifest.2f5232a895492bdd6171f092421d9e48.js": "/drinking-games/precache-manifest.2f5232a895492bdd6171f092421d9e48.js",
     "service-worker.js": "/drinking-games/service-worker.js",
     "static/css/2.7a1e5dfa.chunk.css.map": "/drinking-games/static/css/2.7a1e5dfa.chunk.css.map",
-    "static/css/main.6dbb78fb.chunk.css.map": "/drinking-games/static/css/main.6dbb78fb.chunk.css.map",
-    "static/js/2.d5e0de35.chunk.js.LICENSE.txt": "/drinking-games/static/js/2.d5e0de35.chunk.js.LICENSE.txt",
+    "static/css/main.98b80e95.chunk.css.map": "/drinking-games/static/css/main.98b80e95.chunk.css.map",
+    "static/js/2.3bb45155.chunk.js.LICENSE.txt": "/drinking-games/static/js/2.3bb45155.chunk.js.LICENSE.txt",
     "static/media/10C.png": "/drinking-games/static/media/10C.f23136cf.png",
     "static/media/10D.png": "/drinking-games/static/media/10D.2ea10b74.png",
     "static/media/10H.png": "/drinking-games/static/media/10H.f842cb67.png",
@@ -54,6 +54,7 @@
     "static/media/AD.png": "/drinking-games/static/media/AD.3d323df5.png",
     "static/media/AH.png": "/drinking-games/static/media/AH.2377eb77.png",
     "static/media/AS.png": "/drinking-games/static/media/AS.a5c3b54d.png",
+    "static/media/DOD.png": "/drinking-games/static/media/DOD.f5b5cb13.png",
     "static/media/JC.png": "/drinking-games/static/media/JC.9171bdee.png",
     "static/media/JD.png": "/drinking-games/static/media/JD.81c8e766.png",
     "static/media/JH.png": "/drinking-games/static/media/JH.f5130c3a.png",
@@ -75,8 +76,8 @@
   "entrypoints": [
     "static/js/runtime-main.9349834c.js",
     "static/css/2.7a1e5dfa.chunk.css",
-    "static/js/2.d5e0de35.chunk.js",
-    "static/css/main.6dbb78fb.chunk.css",
-    "static/js/main.aa22401d.chunk.js"
+    "static/js/2.3bb45155.chunk.js",
+    "static/css/main.98b80e95.chunk.css",
+    "static/js/main.d115cf65.chunk.js"
   ]
 }
