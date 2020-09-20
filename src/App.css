@@ -48,6 +48,28 @@
   font-size: xx-large;
 }
 
+.Card-description {
+  font-size: small;
+}
+
+.Back-button {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.Back-button-image {
+  max-height: 3vh;
+}
+
+.Dare-text {
+  font-size: large;
+}
+
+.Dare-text-bold {
+  font-size: x-large;
+  font-weight: bold;
+}
+
 .Playing-card {
   max-height: 40vh;
 }

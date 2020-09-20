@@ -2,8 +2,10 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/Container";
 import '../../App.css';
+import Back from '../../media/back.png';
 import StartScreen from "./StartScreen";
 import GameScreen from "./GameScreen";
+import Home from "../../Home";
 
 
 export default class RandomGen extends React.Component {
@@ -26,7 +28,8 @@ export default class RandomGen extends React.Component {
 
 
     render() {
-
+        var handler = this.props.handler;
+        var appHandler = this.props.parentHandler;
         return (
             <Container>
                 <Card  bg="light" text="dark">
@@ -34,6 +37,9 @@ export default class RandomGen extends React.Component {
                     { this.state.screen }
 
                 </Card>
+                <button onClick={() => handler(<Home handler={appHandler}/>)} className="Back-button">
+                    <img className="Back-button-image my-3" src={Back} />
+                </button>
             </Container>
         )
     }

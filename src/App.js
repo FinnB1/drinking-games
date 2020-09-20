@@ -23,12 +23,11 @@ export default class App extends React.Component {
     handler = (page, logo) => {
         this.setState({
             currentPage: page,
-            currentLogo: logo,
         });
     }
 
     showHome() {
-        this.setState({currentPage: <Home handler = {this.handler} />, currentLogo: logo });
+        this.setState({currentPage: <Home handler = {this.handler} />});
     }
 
     showRandomGen() {

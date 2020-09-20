@@ -5,6 +5,8 @@ import Button from "react-bootstrap/Button";
 import '../../App.css';
 import cards from './Cards'
 import PlayingCard from "../../media/playingcard.png";
+import Home from "../../Home";
+import Back from "../../media/back.png";
 
 
 export default class RingOfFire extends React.Component {
@@ -39,7 +41,7 @@ export default class RingOfFire extends React.Component {
 
             setTimeout(function(){
                 alert("GAME OVER");
-            }, 100);
+            }, 500);
             this.setState({button: <Button onClick={() => {this.resetGame()}} variant="success" className="mx-1">Reset</Button>})
 
         }
@@ -63,6 +65,8 @@ export default class RingOfFire extends React.Component {
     }
 
     render() {
+        var handler = this.props.handler;
+        var appHandler = this.props.parentHandler;
 
         return (
             <Container>
@@ -71,13 +75,16 @@ export default class RingOfFire extends React.Component {
                         <Card.Title>
                             <Card.Text>{this.state.total} cards remaining...</Card.Text>
                             <img className="Playing-card" src={this.state.card} />
-                            <Card.Text>{this.state.description}</Card.Text>
+                            <Card.Text className="Card-description pt-2">{this.state.description}</Card.Text>
                         </Card.Title>
                         <Card.Body>
                             {this.state.button}
                         </Card.Body>
                     </Card.Body>
                 </Card>
+                <button onClick={() => handler(<Home handler={appHandler}/>)} className="Back-button">
+                    <img className="Back-button-image my-3" src={Back} />
+                </button>
             </Container>
         )
     }
