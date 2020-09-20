@@ -8,6 +8,17 @@
   color: white;
 }
 
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  -webkit-appearance: none;
+}
+
+
+
 .App-header {
   max-height: 20vh;
   display: flex;
@@ -61,8 +72,16 @@
   max-height: 3vh;
 }
 
-.Dare-text {
+.Dare-text-green {
   font-size: large;
+  font-weight: bold;
+  color: green;
+}
+
+.Dare-text-red {
+  font-size: large;
+  font-weight: bold;
+  color: indianred;
 }
 
 .Dare-text-bold {

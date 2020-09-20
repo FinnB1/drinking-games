@@ -38,7 +38,7 @@ export default class App extends React.Component {
         return (
             <Container fluid className="App">
                 <Container className="App-header">
-                    <img className="App-logo" onClick={this.showHome} src={this.state.currentLogo} />
+                    <img className="App-logo" onClick={this.showHome} src={this.state.currentLogo} alt="" />
                 </Container>
                 <Container className="App-body">
                     <Row>

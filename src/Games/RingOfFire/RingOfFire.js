@@ -74,7 +74,7 @@ export default class RingOfFire extends React.Component {
                     <Card.Body>
                         <Card.Title>
                             <Card.Text>{this.state.total} cards remaining...</Card.Text>
-                            <img className="Playing-card" src={this.state.card} />
+                            <img className="Playing-card" src={this.state.card} alt=""/>
                             <Card.Text className="Card-description pt-2">{this.state.description}</Card.Text>
                         </Card.Title>
                         <Card.Body>
@@ -83,7 +83,7 @@ export default class RingOfFire extends React.Component {
                     </Card.Body>
                 </Card>
                 <button onClick={() => handler(<Home handler={appHandler}/>)} className="Back-button">
-                    <img className="Back-button-image my-3" src={Back} />
+                    <img className="Back-button-image my-3" src={Back} alt="Back"/>
                 </button>
             </Container>
         )

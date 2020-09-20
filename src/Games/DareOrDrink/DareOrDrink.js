@@ -43,21 +43,21 @@ export default class DareOrDrink extends React.Component {
                 <Card  bg="light" text="dark">
                     <Card.Body>
                         <Card.Body>
-                            <Card.Text className="Dare-text">
+                            <Card.Text className="Dare-text-green">
                                 {this.state.dare}
                             </Card.Text>
                             <Card.Text className="Dare-text-bold">
                                 or
                             </Card.Text>
-                            <Card.Text className="Dare-text">
+                            <Card.Text className="Dare-text-red">
                                 {this.state.drink}
                             </Card.Text>
-                            <Button onClick={() => {this.dare()}}>Dare</Button>
+                            <Button className="mt-2" onClick={() => {this.dare()}}>Dare</Button>
                         </Card.Body>
                     </Card.Body>
                 </Card>
                 <button onClick={() => handler(<Home handler={appHandler}/>)} className="Back-button">
-                    <img className="Back-button-image my-3" src={Back} />
+                    <img className="Back-button-image my-3" src={Back} alt="Back"/>
                 </button>
             </Container>
         )

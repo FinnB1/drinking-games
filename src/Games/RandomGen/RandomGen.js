@@ -38,7 +38,7 @@ export default class RandomGen extends React.Component {
 
                 </Card>
                 <button onClick={() => handler(<Home handler={appHandler}/>)} className="Back-button">
-                    <img className="Back-button-image my-3" src={Back} />
+                    <img className="Back-button-image my-3" src={Back} alt="Back" />
                 </button>
             </Container>
         )
