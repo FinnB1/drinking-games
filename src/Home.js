@@ -5,7 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import countdownLogo from './media/countdown.png';
+import homeLogo from './media/logo.png';
 import RandomGen from './Games/RandomGen/RandomGen.js';
+import RingOfFire from './Games/RingOfFire/RingOfFire.js';
 import RNG from './media/RNG.png';
 import ROF from './media/ROF.png';
 import COS from './media/COS.png';
@@ -37,9 +39,9 @@ export default class Home extends React.Component {
                             <Card.Body>
                                 <Card.Title>Ring of Fire</Card.Title>
                                 <Card.Text>
-                                    Under development.
+                                    Game involving a cup and a deck of cards, each one having a different rule.
                                 </Card.Text>
-                                <Button variant="primary disabled">Play</Button>
+                                <Button onClick={() => handler(<RingOfFire />, homeLogo)} variant="primary">Play</Button>
                             </Card.Body>
                         </Card>
                     </Col>
